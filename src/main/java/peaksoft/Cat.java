@@ -5,12 +5,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 
 @NoArgsConstructor
 @Getter @Setter
 @ToString
-@Component
 public class Cat {
 
     @Value("${cat.name}")

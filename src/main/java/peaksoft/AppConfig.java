@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.*;
 
 @Configuration
-@ComponentScan("peaksoft")
 @PropertySource("classpath:application.properties")
 public class AppConfig {
 
